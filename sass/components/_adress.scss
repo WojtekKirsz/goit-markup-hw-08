@@ -1,0 +1,55 @@
+.adress {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 24px 0 25px;
+
+  &__footer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    &--text {
+      font-size: FontsSize("xs");
+      font-weight: FontsWeight("medium");
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: $StandardWhite;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        color: $StandardBlue;
+      }
+    }
+  }
+
+  &__format {
+    font-size: FontsSize("xs");
+    font-weight: FontsWeight("medium");
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $LightGrey;
+    display: flex;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      fill: $StandardBlue;
+      cursor: pointer;
+      color: $StandardBlue;
+    }
+  }
+
+  &__icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+}

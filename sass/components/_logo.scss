@@ -1,0 +1,36 @@
+.logo {
+  font-family: "Raleway";
+  font-size: FontsSize("xl");
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: FontsWeight("medium");
+
+  &__nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 0 25px;
+    gap: 93px;
+  }
+
+  &__footer {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    color: $StandardBlack;
+
+    &--blue {
+      color: $StandardBlue;
+    }
+
+    &--black {
+      color: $StandardBlack;
+    }
+
+    &--white {
+      color: $StandardWhite;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 94px;
+
+  &__box {
+    background: $BackgroundGrey;
+    border-radius: 4px;
+    padding: 25px 102.34px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    &--desc {
+      font-weight: 400;
+      line-height: 1.71;
+      color: $LightGrey;
+      text-transform: inherit;
+    }
+  }
+}

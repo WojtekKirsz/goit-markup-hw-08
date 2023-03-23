@@ -1,0 +1,23 @@
+$fonts-size: (
+  "xxs": 12px,
+  "xs": 14px,
+  "md": 18px,
+  "lg": 20px,
+  "xl": 26px,
+  "xxl": 36px,
+  "xxxl": 44px,
+);
+
+$fonts-weight: (
+  "small": 500,
+  "medium": 700,
+  "large": 900,
+);
+
+@function FontsSize($key) {
+  @return map-get($fonts-size, $key);
+}
+
+@function FontsWeight($key) {
+  @return map-get($fonts-weight, $key);
+}
