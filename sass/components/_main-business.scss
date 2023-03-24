@@ -33,3 +33,9 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .main-business__wrapper {
+    display: none;
+  }
+}

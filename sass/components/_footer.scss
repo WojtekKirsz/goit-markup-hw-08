@@ -45,3 +45,27 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    background-color: $LightBlack;
+    padding: 60px 0px 60px;
+    width: 480px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__icons {
+      margin-left: 137px;
+      margin-bottom: 60px;
+
+      &--text {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
+      }
+    }
+  }
+}

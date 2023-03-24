@@ -35,3 +35,20 @@ body {
   color: var(--standard-black);
   text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+
+    &__main-section {
+      width: 480px;
+      margin: 0 auto;
+      padding-bottom: 60px;
+    }
+
+    &__header {
+      display: none;
+    }
+  }
+}

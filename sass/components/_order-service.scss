@@ -44,3 +44,25 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .main-header {
+    max-width: 480px;
+    background-size: cover;
+
+    &__text {
+      color: $StandardWhite;
+      letter-spacing: 0.06em;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 42px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 118px 58px 30px 57px;
+    }
+
+    &__button {
+      margin-bottom: 118px;
+    }
+  }
+}

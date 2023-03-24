@@ -224,3 +224,9 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+}

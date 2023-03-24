@@ -68,3 +68,39 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .our-team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 480px;
+
+    &__text {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__box {
+      margin-left: 15px;
+      margin-bottom: 30px;
+      margin-right: 15px;
+
+      &--img {
+        height: 460px;
+        width: 450px;
+      }
+    }
+
+    &__icons {
+      padding-left: 122px;
+    }
+  }
+}

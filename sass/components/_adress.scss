@@ -53,3 +53,9 @@
     margin-right: 10px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .adress__footer {
+    text-align: center;
+  }
+}
