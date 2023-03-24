@@ -104,3 +104,40 @@
     }
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .our-team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 768px;
+
+    &__text {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    &__box {
+      margin-left: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+
+      &--img {
+        height: 374px;
+        width: 354px;
+      }
+    }
+
+    &__icons {
+      padding-left: 74px;
+    }
+  }
+}

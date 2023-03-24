@@ -66,3 +66,25 @@
     }
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .main-header {
+    max-width: 768px;
+    background-size: cover;
+
+    &__text {
+      color: $StandardWhite;
+      letter-spacing: 0.06em;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 42px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 118px 201px 30px 202px;
+    }
+
+    &__button {
+      margin-bottom: 128px;
+    }
+  }
+}

@@ -52,3 +52,20 @@ body {
     }
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+
+    &__main-section {
+      width: 768px;
+      margin: 0 auto;
+      padding-bottom: 60px;
+    }
+
+    &__header {
+      display: none;
+    }
+  }
+}

@@ -69,3 +69,26 @@
     }
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    background-color: $LightBlack;
+    padding: 60px 0px 60px;
+    width: 768px;
+
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__icons {
+      margin-left: 137px;
+
+      &--text {
+        margin-left: 185px;
+        margin-top: 0px;
+      }
+    }
+  }
+}

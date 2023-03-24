@@ -64,3 +64,31 @@
     }
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+  .our-clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__text {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-left: 15px;
+      margin-right: 15px;
+
+      &--item {
+        width: 226px;
+      }
+    }
+  }
+}
