@@ -39,10 +39,17 @@
   .logo__footer {
     text-align: center;
   }
+
+  .logo__nav-wrapper {
+    margin-left: 15px;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .logo__footer {
     text-align: center;
+  }
+  .logo__nav-wrapper {
+    margin-left: 15px;
   }
 }
