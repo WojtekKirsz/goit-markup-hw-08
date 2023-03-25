@@ -318,6 +318,10 @@ body {
     margin-top: 10px;
     margin-bottom: 30px;
   }
+  .lorem-ipsum__container {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
 }
 .main-business {
   display: -webkit-box;
@@ -478,7 +482,7 @@ body {
     padding-left: 122px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .our-team {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1286,8 +1290,19 @@ body {
   color: #2196f3;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .modal {
-    width: 450px;
+    max-width: 450px;
+    min-width: 450px;
+  }
+  .modal__termstext {
+    font-size: 12px;
+  }
+  .modal__terms--image {
+    left: 6px;
+  }
+  .modal__terms--input::before {
+    left: 4px;
+    top: 1px;
   }
 }/*# sourceMappingURL=main.min.css.map */

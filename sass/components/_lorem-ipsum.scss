@@ -75,5 +75,9 @@
         margin-bottom: 30px;
       }
     }
+
+    &__container {
+      flex-basis: calc(100% / 2);
+    }
   }
 }
