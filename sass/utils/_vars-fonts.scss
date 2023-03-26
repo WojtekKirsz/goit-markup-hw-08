@@ -21,7 +21,3 @@ $fonts-weight: (
 @function FontsWeight($key) {
   @return map-get($fonts-weight, $key);
 }
-
-$width: (
-  "phone": 480px,
-);

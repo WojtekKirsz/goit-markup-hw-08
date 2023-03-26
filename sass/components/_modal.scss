@@ -225,49 +225,6 @@
   }
 }
 
-// @media screen and (max-width: 480px) {
-//   .modal {
-//     min-width: 450px;
-
-//     &__termstext {
-//       font-size: FontsSize("xxs");
-//     }
-
-//     &__terms--image {
-//       left: 6px;
-//     }
-
-//     &__terms--input::before {
-//       left: 4px;
-//       top: 1px;
-//     }
-//   }
-// }
-
-// @media screen and (min-width: 481px) and (max-width: 768px) {
-//   .modal {
-//     width: 450px;
-
-//     &__termstext {
-//       font-size: FontsSize("xxs");
-//     }
-
-//     &__terms--image {
-//       left: 6px;
-//     }
-
-//     &__terms--input::before {
-//       left: 4px;
-//       top: 1px;
-//     }
-
-//     &__backdrop {
-//       padding-left: 159px;
-//       justify-content: left;
-//     }
-//   }
-// }
-
 @media screen and (max-width: 768px) {
   .modal {
     max-width: 450px;

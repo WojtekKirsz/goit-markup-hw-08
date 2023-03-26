@@ -101,7 +101,7 @@
     margin-left: 15px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .logo__footer {
     text-align: center;
   }
@@ -178,6 +178,7 @@ body {
   text-align: center;
   max-width: 1600px;
   margin: 0 auto;
+  background-size: cover;
 }
 .main-header__text {
   color: #ffffff;
@@ -251,6 +252,21 @@ body {
   }
   .main-header__button {
     margin-bottom: 128px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .main-header {
+    width: 1600px;
+    background-size: cover;
+  }
+  .main-header__text {
+    padding: 200px 452px 30px 452px;
+    text-align: center;
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .main-header {
+    background-image: url(../images/img-background@2x.jpg);
   }
 }
 .lorem-ipsum {
@@ -1473,7 +1489,7 @@ body {
     cursor: pointer;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .menu-toggle {
     display: none;
   }
