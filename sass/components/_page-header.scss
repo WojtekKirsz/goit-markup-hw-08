@@ -48,6 +48,52 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .nav {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+
+    &__format {
+      font-size: FontsSize("xs");
+      font-weight: FontsWeight("small");
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: var(--standard-black);
+      cursor: pointer;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &--agency-active {
+        color: $StandardBlue;
+        position: relative;
+      }
+
+      &--agency-active::after {
+        display: block;
+        content: "";
+        width: 55px;
+        height: 5px;
+        background: $StandardBlue;
+        border-radius: 2px;
+        position: absolute;
+        top: 45px;
+      }
+
+      &--portfolio-active {
+        color: $StandardBlue;
+        position: relative;
+      }
+
+      &:hover,
+      &:focus {
+        color: $StandardBlue;
+      }
+    }
+  }
+}
+
 // .nav {
 //   display: flex;
 //   gap: 46px;

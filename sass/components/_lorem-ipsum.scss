@@ -3,9 +3,6 @@
   padding-bottom: 60px;
 
   &__box {
-    // padding: 25px 192.34px;
-    // margin-left: 15px;
-    // margin-right: 15px;
     background: $BackgroundGrey;
     border-radius: 4px;
     text-align: center;
@@ -15,7 +12,6 @@
   &__text {
     text-align: center;
     margin-top: 30px;
-
     font-size: 14px;
     letter-spacing: 0.03em;
     font-weight: 700;
@@ -54,12 +50,14 @@
 
 @media screen and (min-width: 769px) {
   .lorem-ipsum {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 30px;
     padding-bottom: 94px;
+    gap: 30px;
 
     &__box {
-      padding: 25px 102.34px;
+      padding: 25px 0px;
       margin-bottom: 30px;
     }
   }

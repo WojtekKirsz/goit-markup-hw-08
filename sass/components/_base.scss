@@ -12,12 +12,10 @@ body {
 }
 
 .container {
-  // width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 
   &__header {
-    // width: 480px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,7 +23,6 @@ body {
   }
 
   &__main-section {
-    // width: 480px;
     margin: 0 auto;
     padding-bottom: 60px;
   }
@@ -41,6 +38,17 @@ body {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .container {
+    max-width: 1200px;
+
+    &__main-section {
+      width: 100%;
+      padding-bottom: 94px;
+    }
+  }
+}
+
 // @media screen and (min-width: 481px) and (max-width: 768px) {
 //   .container {
 //     width: 100%;
@@ -50,17 +58,6 @@ body {
 //     // }
 //   }
 // }
-
-@media screen and (min-width: 769px) {
-  .container {
-    width: 100%;
-
-    &__main-section {
-      width: 100%;
-      padding-bottom: 94px;
-    }
-  }
-}
 
 // .container {
 //   width: 1200px;

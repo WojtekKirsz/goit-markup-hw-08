@@ -1,7 +1,6 @@
 .our-clients {
   padding-top: 60px;
   padding-bottom: 60px;
-  // width: 480px;
 
   &__text {
     font-size: 28px;
@@ -16,9 +15,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    // gap: 30px;
-    // margin-left: 15px;
-    // margin-right: 15px;
 
     &--wrapper {
       flex-basis: calc((100% - 30px) / 2);
@@ -26,7 +22,6 @@
     }
 
     &--item {
-      // width: 210px;
       fill: #afb1b8;
       border: 1px solid #afb1b8;
       border-radius: 4px;
@@ -50,7 +45,6 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .our-clients__list--wrapper {
     flex-basis: calc((100% - 30px) / 3);
-    margin-bottom: 30px;
   }
 }
 
@@ -66,10 +60,11 @@
 
     &__list {
       display: flex;
-      justify-content: space-between;
+      flex-wrap: nowrap;
+      gap: 30px;
 
-      &--item {
-        width: 170px;
+      &--wrapper {
+        margin-bottom: 0px;
       }
     }
   }

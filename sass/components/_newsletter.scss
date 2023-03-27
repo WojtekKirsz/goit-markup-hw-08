@@ -1,6 +1,4 @@
 .newsletter {
-  // margin-left: 78px;
-
   &__box {
     border: none;
     display: flex;
@@ -17,7 +15,6 @@
     text-align: center;
     color: $StandardWhite;
     text-transform: uppercase;
-    // margin-left: 78px;
     padding-top: 12px;
     margin-bottom: 20px;
   }
@@ -43,7 +40,6 @@
   }
 
   &__input {
-    // width: 384px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -57,6 +53,57 @@
       line-height: 1.25;
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .newsletter {
+    margin-left: 0px;
+
+    &__header {
+      text-align: center;
+      margin-left: 0px;
+      padding-top: 0px;
+      margin-top: 60px;
+    }
+
+    &__box {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__input {
+      margin-bottom: 20px;
+      width: 450px;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .newsletter {
+    margin-left: 78px;
+
+    &__header {
+      text-align: left;
+      margin-left: 78px;
+
+      margin-top: 0px;
+    }
+
+    &__box {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__input {
+      margin-bottom: 20px;
+      width: 384px;
+      margin-right: 12px;
+    }
+
+    &__button {
+      margin-bottom: 20px;
     }
   }
 }
@@ -81,29 +128,6 @@
 //     }
 //   }
 // }
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .newsletter {
-    margin-left: 0px;
-
-    &__header {
-      text-align: center;
-      margin-left: 0px;
-      padding-top: 0px;
-      margin-top: 60px;
-    }
-
-    &__box {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    &__input {
-      margin-bottom: 20px;
-      width: 450px;
-    }
-  }
-}
 
 // DESKTOP
 

@@ -2,7 +2,6 @@
   background-color: $BackgroundGrey;
   padding-top: 60px;
   padding-bottom: 60px;
-  // width: 480px;
 
   &__text {
     font-weight: 700;
@@ -47,7 +46,6 @@
     }
   }
   &__icons {
-    // padding-left: 122px;
     display: flex;
     padding-top: 28px;
     gap: 10px;
@@ -77,27 +75,19 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .our-team {
-    // width: 768px;
+  .our-team__wrapper {
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+  }
 
-    &__wrapper {
-      flex-wrap: wrap;
-      gap: 30px;
-      flex-direction: row;
+  .our-team__box {
+    margin-bottom: 0px;
+    width: calc((100% - 30px) / 2);
+
+    &--img {
+      height: 374px;
     }
-
-    &__box {
-      margin-bottom: 0px;
-      width: calc((100% - 30px) / 2);
-
-      &--img {
-        height: 374px;
-      }
-    }
-
-    // &__icons {
-    //   padding-left: 74px;
-    // }
   }
 }
 
@@ -113,12 +103,13 @@
 
     &__wrapper {
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       gap: 30px;
     }
 
-    &__icons {
-      padding-left: 32px;
+    &__box--img {
+      height: 260px;
     }
   }
 }
