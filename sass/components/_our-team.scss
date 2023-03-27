@@ -2,7 +2,7 @@
   background-color: $BackgroundGrey;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 480px;
+  // width: 480px;
 
   &__text {
     font-weight: 700;
@@ -10,6 +10,7 @@
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
 
     &--individual {
       font-weight: FontsWeight("small");
@@ -42,15 +43,16 @@
 
     &--img {
       height: 460px;
-      width: 450px;
+      width: 100%;
     }
   }
   &__icons {
-    padding-left: 122px;
+    // padding-left: 122px;
     display: flex;
     padding-top: 28px;
     gap: 10px;
     padding-bottom: 42px;
+    justify-content: center;
 
     &--item {
       height: 44px;
@@ -76,27 +78,26 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .our-team {
-    width: 768px;
+    // width: 768px;
 
     &__wrapper {
       flex-wrap: wrap;
       gap: 30px;
+      flex-direction: row;
     }
 
     &__box {
-      margin-left: 0px;
       margin-bottom: 0px;
-      margin-right: 0px;
+      width: calc((100% - 30px) / 2);
 
       &--img {
         height: 374px;
-        width: 354px;
       }
     }
 
-    &__icons {
-      padding-left: 74px;
-    }
+    // &__icons {
+    //   padding-left: 74px;
+    // }
   }
 }
 

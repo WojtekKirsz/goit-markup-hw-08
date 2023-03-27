@@ -3,18 +3,19 @@
   padding-bottom: 60px;
 
   &__box {
-    padding: 25px 192.34px;
+    // padding: 25px 192.34px;
     // margin-left: 15px;
     // margin-right: 15px;
     background: $BackgroundGrey;
     border-radius: 4px;
+    text-align: center;
+    padding: 25px 0px;
   }
 
   &__text {
     text-align: center;
     margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+
     font-size: 14px;
     letter-spacing: 0.03em;
     font-weight: 700;
@@ -39,10 +40,7 @@
     flex-wrap: wrap;
     padding-left: 10px;
     padding-right: 10px;
-
-    &__box {
-      padding: 25px 144.34px;
-    }
+    gap: 30px;
 
     &__text {
       text-align: left;
