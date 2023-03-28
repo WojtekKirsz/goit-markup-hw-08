@@ -8,6 +8,9 @@
   max-width: 480px;
   margin: 0 auto;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__text {
     color: $StandardWhite;
@@ -17,8 +20,8 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     padding-top: 118px;
-    padding-left: 57px;
-    padding-right: 58px;
+    // padding-left: 57px;
+    // padding-right: 58px;
     padding-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -53,7 +56,9 @@
     max-width: 768px;
 
     &__text {
-      padding: 118px 201px 30px 202px;
+      // padding: 118px 201px 30px 202px;
+      padding-top: 118px;
+      padding-bottom: 30px;
     }
 
     &__button {
@@ -70,8 +75,8 @@
     &__text {
       text-align: center;
       padding-top: 200px;
-      padding-left: 452px;
-      padding-right: 452px;
+      // padding-left: 452px;
+      // padding-right: 452px;
       padding-bottom: 30px;
       font-size: 44px;
     }

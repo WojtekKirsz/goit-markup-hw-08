@@ -60,11 +60,14 @@
 
     &__list {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       gap: 30px;
+      justify-content: space-between;
+      flex-direction: row;
 
       &--wrapper {
         margin-bottom: 0px;
+        flex-basis: calc((100% - 30px) / 7);
       }
     }
   }

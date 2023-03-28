@@ -51,16 +51,16 @@
   .footer__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     flex-direction: row;
+    justify-content: space-around;
   }
 
-  .footer__icons {
-    margin-left: 137px;
-  }
+  // .footer__icons {
+  //   margin-left: 137px;
+  // }
 
   .footer__icons--text {
-    margin-left: 185px;
+    // margin-left: 185px;
     margin-top: 0px;
     padding-top: 0px;
   }
@@ -74,15 +74,17 @@
     &__container {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
       padding: 0;
+      flex-wrap: wrap;
     }
 
     &__icons {
-      margin-left: 70px;
+      // margin-left: 70px;
 
       &--text {
         text-align: left;
-        margin-left: 70px;
+        // margin-left: 70px;
         padding-top: 12px;
       }
 

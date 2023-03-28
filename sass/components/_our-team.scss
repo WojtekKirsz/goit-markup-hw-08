@@ -105,11 +105,15 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      gap: 30px;
+      // gap: 30px;
     }
 
     &__box--img {
       height: 260px;
+    }
+
+    &__icons {
+      gap: 0px;
     }
   }
 }

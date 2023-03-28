@@ -75,18 +75,18 @@
 
     &__input {
       margin-bottom: 20px;
-      width: 450px;
+      width: 440px;
     }
   }
 }
 
 @media screen and (min-width: 769px) {
   .newsletter {
-    margin-left: 78px;
+    // margin-left: 78px;
 
     &__header {
       text-align: left;
-      margin-left: 78px;
+      // margin-left: 78px;
 
       margin-top: 0px;
     }
