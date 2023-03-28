@@ -25,6 +25,35 @@
       }
     }
   }
+
+  &__mobile {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: $StandardBlue;
+
+    &--email {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.02em;
+      color: $LightGrey;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        color: $StandardBlue;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -57,35 +86,6 @@
     &__icon {
       fill: currentColor;
       margin-right: 10px;
-    }
-
-    &__mobile {
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 34px;
-      line-height: 40px;
-      letter-spacing: 0.02em;
-      color: $StandardBlue;
-
-      &--email {
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0.02em;
-        color: $LightGrey;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-        &:hover,
-        &:focus {
-          cursor: pointer;
-          color: $StandardBlue;
-        }
-      }
     }
   }
 }

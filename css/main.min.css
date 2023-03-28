@@ -797,6 +797,34 @@ body {
   cursor: pointer;
   color: #2196f3;
 }
+.adress__mobile {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.adress__mobile--email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.adress__mobile--email:hover, .adress__mobile--email:focus {
+  cursor: pointer;
+  color: #2196f3;
+}
 
 @media screen and (min-width: 769px) {
   .adress {
@@ -837,34 +865,6 @@ body {
   .adress__icon {
     fill: currentColor;
     margin-right: 10px;
-  }
-  .adress__mobile {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #2196f3;
-  }
-  .adress__mobile--email {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 250ms;
-            transition-duration: 250ms;
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .adress__mobile--email:hover, .adress__mobile--email:focus {
-    cursor: pointer;
-    color: #2196f3;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -1438,10 +1438,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .modal {
-    max-width: 450px;
-    min-width: 450px;
-  }
   .modal__termstext {
     font-size: 12px;
   }

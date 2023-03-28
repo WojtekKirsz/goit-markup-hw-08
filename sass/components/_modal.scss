@@ -227,8 +227,8 @@
 
 @media screen and (max-width: 768px) {
   .modal {
-    max-width: 450px;
-    min-width: 450px;
+    // max-width: 450px;
+    // min-width: 450px;
 
     &__termstext {
       font-size: FontsSize("xxs");
