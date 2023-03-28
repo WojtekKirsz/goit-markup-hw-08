@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .lorem-ipsum {
     display: flex;
     flex-wrap: wrap;
@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .lorem-ipsum {
     display: flex;
     flex-direction: row;
@@ -60,8 +60,81 @@
       padding: 25px 0px;
       margin-bottom: 30px;
     }
+
+    &__container {
+      flex-basis: calc((100% - 120px) / 4);
+    }
   }
 }
+
+// WERSJA 28.03. START
+
+// .lorem-ipsum {
+//   display: inline-block;
+//   padding-bottom: 60px;
+
+//   &__box {
+//     background: $BackgroundGrey;
+//     border-radius: 4px;
+//     text-align: center;
+//     padding: 25px 0px;
+//   }
+
+//   &__text {
+//     text-align: center;
+//     margin-top: 30px;
+//     font-size: 14px;
+//     letter-spacing: 0.03em;
+//     font-weight: 700;
+//     line-height: 1.14;
+//     text-transform: uppercase;
+
+//     &--desc {
+//       text-align: left;
+//       margin-top: 10px;
+//       margin-bottom: 30px;
+//       font-weight: 400;
+//       line-height: 1.71;
+//       color: $LightGrey;
+//       text-transform: inherit;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .lorem-ipsum {
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     gap: 30px;
+
+//     &__text {
+//       text-align: left;
+//     }
+
+//     &__container {
+//       flex-basis: calc((100% - 30px) / 2);
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .lorem-ipsum {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     padding-bottom: 94px;
+//     gap: 30px;
+
+//     &__box {
+//       padding: 25px 0px;
+//       margin-bottom: 30px;
+//     }
+//   }
+// }
+
+// WERSJA 28.03. END
 
 // .lorem-ipsum {
 //   display: flex;

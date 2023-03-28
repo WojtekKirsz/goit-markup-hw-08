@@ -36,18 +36,73 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .logo__nav-wrapper {
     gap: 83px;
     flex-wrap: wrap;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .logo__footer {
     text-align: left;
   }
 }
+
+// WERSJA 28.03. START
+
+// .logo {
+//   font-family: "Raleway";
+//   font-size: FontsSize("xl");
+//   line-height: 1.17;
+//   letter-spacing: 0.03em;
+//   font-weight: FontsWeight("medium");
+
+//   &__nav-wrapper {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-start;
+//     align-items: center;
+//     padding: 24px 0 25px;
+//     gap: 93px;
+//   }
+
+//   &__footer {
+//     margin-bottom: 20px;
+//     text-align: center;
+//   }
+
+//   &__text {
+//     color: $StandardBlack;
+
+//     &--blue {
+//       color: $StandardBlue;
+//     }
+
+//     &--black {
+//       color: $StandardBlack;
+//     }
+
+//     &--white {
+//       color: $StandardWhite;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .logo__nav-wrapper {
+//     gap: 83px;
+//     flex-wrap: wrap;
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .logo__footer {
+//     text-align: left;
+//   }
+// }
+
+// WERSJA 28.03. END
 
 // @media screen and (max-width: 480px) {
 //   .logo__footer {

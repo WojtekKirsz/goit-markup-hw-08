@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer__container {
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .footer {
     background-color: $LightBlack;
     padding: 60px 0px 60px;
@@ -109,6 +109,122 @@
     }
   }
 }
+
+// WERSJA 28.03. START
+
+// .footer {
+//   background-color: $LightBlack;
+//   padding: 60px 0px 60px;
+
+//   &__container {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+//   &__icons {
+//     display: flex;
+//     justify-content: center;
+//     gap: 10px;
+//     margin-bottom: 60px;
+
+//     &--text {
+//       font-family: Roboto;
+//       font-size: FontsSize("xs");
+//       font-weight: FontsWeight("medium");
+//       line-height: 1.14;
+//       letter-spacing: 0.03em;
+//       text-align: center;
+//       color: $StandardWhite;
+//       text-transform: uppercase;
+//       padding-top: 60px;
+//       margin-bottom: 20px;
+//     }
+
+//     &--item {
+//       height: 44px;
+//       width: 44px;
+//       background: rgba(255, 255, 255, 0.1);
+//       border-radius: 50%;
+//       fill: $StandardWhite;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       transition-property: background-color;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//       &:hover,
+//       &:focus {
+//         background-color: $StandardBlue;
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .footer__container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     flex-direction: row;
+//     justify-content: space-around;
+//   }
+
+//   // .footer__icons {
+//   //   margin-left: 137px;
+//   // }
+
+//   .footer__icons--text {
+//     // margin-left: 185px;
+//     margin-top: 0px;
+//     padding-top: 0px;
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .footer {
+//     background-color: $LightBlack;
+//     padding: 60px 0px 60px;
+
+//     &__container {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       padding: 0;
+//       flex-wrap: wrap;
+//     }
+
+//     &__icons {
+//       // margin-left: 70px;
+
+//       &--text {
+//         text-align: left;
+//         // margin-left: 70px;
+//         padding-top: 12px;
+//       }
+
+//       &--item {
+//         height: 44px;
+//         width: 44px;
+//         background: rgba(255, 255, 255, 0.1);
+//         border-radius: 50%;
+//         fill: $StandardWhite;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         transition-property: background-color;
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//         &:hover,
+//         &:focus {
+//           background-color: $StandardBlue;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// WERSJA 28.03. END
 
 // @media screen and (max-width: 480px) {
 //   .footer {

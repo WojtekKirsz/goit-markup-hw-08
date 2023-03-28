@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .adress {
     display: flex;
     flex-direction: column;
@@ -90,12 +90,14 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .adress {
     display: flex;
     align-items: center;
     gap: 30px;
     padding: 24px 0 25px;
+    flex-direction: row;
+    margin-top: 0px;
 
     &__footer {
       text-align: left;
@@ -155,6 +157,139 @@
     }
   }
 }
+
+// WERSJA 28.03. START
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .adress {
+//     display: flex;
+//     flex-direction: column;
+//     margin-top: 21px;
+//     align-items: flex-start;
+//     gap: 10px;
+
+//     &__format {
+//       font-size: FontsSize("xs");
+//       font-weight: FontsWeight("medium");
+//       line-height: 1.14;
+//       letter-spacing: 0.02em;
+//       color: $LightGrey;
+//       display: flex;
+//       transition-property: color, fill;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//       &:hover,
+//       &:focus {
+//         fill: $StandardBlue;
+//         cursor: pointer;
+//         color: $StandardBlue;
+//       }
+//     }
+
+//     &__icon {
+//       fill: currentColor;
+//       margin-right: 10px;
+//     }
+
+//     &__mobile {
+//       font-family: "Roboto";
+//       font-style: normal;
+//       font-weight: 500;
+//       font-size: 34px;
+//       line-height: 40px;
+//       letter-spacing: 0.02em;
+//       color: $StandardBlue;
+
+//       &--email {
+//         font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 24px;
+//         line-height: 28px;
+//         letter-spacing: 0.02em;
+//         color: $LightGrey;
+//         transition-property: color;
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//         &:hover,
+//         &:focus {
+//           cursor: pointer;
+//           color: $StandardBlue;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .adress {
+//     display: flex;
+//     align-items: center;
+//     gap: 30px;
+//     padding: 24px 0 25px;
+
+//     &__footer {
+//       text-align: left;
+//     }
+
+//     &__format {
+//       font-size: FontsSize("xs");
+//       font-weight: FontsWeight("medium");
+//       line-height: 1.14;
+//       letter-spacing: 0.02em;
+//       color: $LightGrey;
+//       display: flex;
+//       transition-property: color, fill;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//       &:hover,
+//       &:focus {
+//         fill: $StandardBlue;
+//         cursor: pointer;
+//         color: $StandardBlue;
+//       }
+//     }
+
+//     &__icon {
+//       fill: currentColor;
+//       margin-right: 10px;
+//     }
+
+//     &__mobile {
+//       font-family: "Roboto";
+//       font-style: normal;
+//       font-weight: 500;
+//       font-size: 34px;
+//       line-height: 40px;
+//       letter-spacing: 0.02em;
+//       color: $StandardBlue;
+
+//       &--email {
+//         font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 24px;
+//         line-height: 28px;
+//         letter-spacing: 0.02em;
+//         color: $LightGrey;
+//         transition-property: color;
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//         &:hover,
+//         &:focus {
+//           cursor: pointer;
+//           color: $StandardBlue;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// WERSJA 28.03. END
 
 // .adress__footer {
 //     text-align: center;

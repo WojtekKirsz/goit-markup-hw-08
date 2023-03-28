@@ -41,7 +41,7 @@
     border-radius: 0px 0px 4px 4px;
 
     &--img {
-      height: 460px;
+      height: auto;
       width: 100%;
     }
   }
@@ -74,7 +74,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .our-team__wrapper {
     flex-wrap: wrap;
     gap: 30px;
@@ -86,12 +86,12 @@
     width: calc((100% - 30px) / 2);
 
     &--img {
-      height: 374px;
+      height: auto;
     }
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .our-team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -108,8 +108,12 @@
       // gap: 30px;
     }
 
+    &__box {
+      width: calc((100% - 120px) / 4);
+    }
+
     &__box--img {
-      height: 260px;
+      height: auto;
     }
 
     &__icons {
@@ -117,6 +121,130 @@
     }
   }
 }
+
+// WERSJA 28.03. START
+
+// .our-team {
+//   background-color: $BackgroundGrey;
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+
+//   &__text {
+//     font-weight: 700;
+//     font-size: 28px;
+//     line-height: 33px;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     padding-bottom: 30px;
+
+//     &--individual {
+//       font-weight: FontsWeight("small");
+//       line-height: 1.875;
+//       letter-spacing: 0.03em;
+//       text-align: center;
+//       padding: 30px 0px 10px;
+//     }
+
+//     &--job {
+//       line-height: 1.875;
+//       letter-spacing: 0.03em;
+//       text-align: center;
+//       color: $LightGrey;
+//     }
+//   }
+
+//   &__wrapper {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+//   &__box {
+//     margin-bottom: 30px;
+
+//     background: $StandardWhite;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//       0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 0px 0px 4px 4px;
+
+//     &--img {
+//       height: 460px;
+//       width: 100%;
+//     }
+//   }
+//   &__icons {
+//     display: flex;
+//     padding-top: 28px;
+//     gap: 10px;
+//     padding-bottom: 42px;
+//     justify-content: center;
+
+//     &--item {
+//       height: 44px;
+//       width: 44px;
+//       background: rgba(255, 255, 255, 0.1);
+//       border-radius: 50%;
+//       fill: #afb1b8;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       transition-property: background-color, fill;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//       &:hover,
+//       &:focus {
+//         background-color: $StandardBlue;
+//         fill: $StandardWhite;
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .our-team__wrapper {
+//     flex-wrap: wrap;
+//     gap: 30px;
+//     flex-direction: row;
+//   }
+
+//   .our-team__box {
+//     margin-bottom: 0px;
+//     width: calc((100% - 30px) / 2);
+
+//     &--img {
+//       height: 374px;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .our-team {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+
+//     &__text {
+//       font-size: FontsSize("xxl");
+//       padding-bottom: 50px;
+//     }
+
+//     &__wrapper {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       // gap: 30px;
+//     }
+
+//     &__box--img {
+//       height: 260px;
+//     }
+
+//     &__icons {
+//       gap: 0px;
+//     }
+//   }
+// }
+
+// WERSJA 28.03. END
 
 // .our-team {
 //   background-color: $BackgroundGrey;

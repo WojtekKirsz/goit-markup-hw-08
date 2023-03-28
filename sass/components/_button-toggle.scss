@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .menu-toggle {
     display: none;
   }
@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .menu-toggle {
     display: none;
   }
@@ -123,3 +123,133 @@
     display: none;
   }
 }
+
+// WERSJA 28.03. START
+
+// @media screen and (max-width: 480px) {
+//   .menu-toggle {
+//     min-height: 40px;
+//     min-width: 40px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin: 0;
+//     padding: 0;
+//     background-color: transparent;
+//     cursor: pointer;
+//     border: none;
+//     border-radius: 50%;
+//     outline: none;
+//     // margin-right: 15px;
+//   }
+
+//   .menu-container {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     padding: 48px 48px 48px 40px;
+//     background-color: $StandardWhite;
+//     z-index: 999;
+
+//     transform: translateX(100%);
+//     transition: transform 250ms ease-in-out;
+//   }
+
+//   .menu-container.is-open {
+//     transform: translateX(0);
+//   }
+
+//   .menu-container .menu-toggle {
+//     position: absolute;
+//     top: 16px;
+//     right: 16px;
+//     color: $StandardBlack;
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//       color: $StandardBlue;
+//     }
+//   }
+
+//   .mobile-menu {
+//     padding: 0;
+//     margin: 0;
+//     list-style: none;
+//     font-family: Roboto;
+//     font-size: 40px;
+//     font-weight: 500;
+//     line-height: 47px;
+//     letter-spacing: 0.02em;
+//     text-align: left;
+//     margin-bottom: 302px;
+//   }
+
+//   .mobile-menu .link {
+//     display: block;
+//     padding-bottom: 32px;
+//     color: $StandardBlack;
+//     text-decoration: none;
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//       color: $StandardBlue;
+//     }
+//   }
+
+//   .mobile-menu-wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 32px;
+//   }
+
+//   .mobile-menu-social {
+//     display: flex;
+//     flex-direction: row;
+//     gap: 20px;
+//   }
+
+//   .mobile-menu-social-text {
+//     font-family: "Roboto";
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 22px;
+//     letter-spacing: 0.02em;
+//     color: $StandardBlue;
+
+//     &:hover,
+//     &:focus {
+//       cursor: pointer;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .menu-toggle {
+//     display: none;
+//   }
+
+//   .menu-container {
+//     display: none;
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .menu-toggle {
+//     display: none;
+//   }
+
+//   .menu-container {
+//     display: none;
+//   }
+// }
+
+// WERSJA 28.03. END

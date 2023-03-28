@@ -42,13 +42,13 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .our-clients__list--wrapper {
     flex-basis: calc((100% - 30px) / 3);
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
   .our-clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -67,11 +67,90 @@
 
       &--wrapper {
         margin-bottom: 0px;
-        flex-basis: calc((100% - 30px) / 7);
+        flex-basis: calc((100% - 150px) / 6);
       }
     }
   }
 }
+
+// WERSJA 28.03. START
+
+// .our-clients {
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+
+//   &__text {
+//     font-size: 28px;
+//     font-weight: 700;
+//     line-height: 33px;
+//     letter-spacing: 0.03em;
+//     text-align: center;
+//     padding-bottom: 30px;
+//   }
+
+//   &__list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+
+//     &--wrapper {
+//       flex-basis: calc((100% - 30px) / 2);
+//       margin-bottom: 30px;
+//     }
+
+//     &--item {
+//       fill: #afb1b8;
+//       border: 1px solid #afb1b8;
+//       border-radius: 4px;
+//       height: 92px;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       transition-property: border-color, fill;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//       &:hover,
+//       &:focus {
+//         fill: $StandardBlue;
+//         border-color: $StandardBlue;
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .our-clients__list--wrapper {
+//     flex-basis: calc((100% - 30px) / 3);
+//   }
+// }
+
+// @media screen and (min-width: 769px) {
+//   .our-clients {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+
+//     &__text {
+//       font-size: FontsSize("xxl");
+//       padding-bottom: 50px;
+//     }
+
+//     &__list {
+//       display: flex;
+//       flex-wrap: wrap;
+//       gap: 30px;
+//       justify-content: space-between;
+//       flex-direction: row;
+
+//       &--wrapper {
+//         margin-bottom: 0px;
+//         flex-basis: calc((100% - 30px) / 7);
+//       }
+//     }
+//   }
+// }
+
+// WERSJA 28.03. END
 
 // .our-clients {
 //   padding-top: 94px;
